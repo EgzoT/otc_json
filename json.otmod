@@ -1,0 +1,12 @@
+Module
+  name: json
+  description: JSON library module for OTClient
+  author: EgzoT [only module], github@rxi [json.lua library] 
+  website: https://github.com/EgzoT/otc_json
+  version: 1.0.0
+
+  autoload: true
+  autoload-priority: 500
+  sandboxed: false
+  @onLoad: |
+    dofile 'json.lua/json'

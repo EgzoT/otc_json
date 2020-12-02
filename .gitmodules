@@ -1,0 +1,3 @@
+[submodule "json.lua"]
+	path = json.lua
+	url = https://github.com/EgzoT/json.lua.git
